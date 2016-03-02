@@ -520,7 +520,7 @@ NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBund
     [button setBackgroundImage:selectedImage forState:UIControlStateDisabled];
     [button addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
     [button setContentMode:UIViewContentModeCenter];
-    [button setFrame:CGRectMake(0,0, image.size.width, image.size.height)];
+    [button setFrame:CGRectMake(0,0, image.size.width+6, image.size.height+6)];
     return button;
 }
 
